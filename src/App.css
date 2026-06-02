@@ -542,6 +542,10 @@
   background: #fff;
 }
 
+.home-ranking-card + .home-ranking-card {
+  margin-top: 16px;
+}
+
 .home-ranking-header {
   color: #0c0d0e;
   font-size: 14px;
@@ -1137,7 +1141,7 @@
 
 .page-title {
   margin: 0 0 8px;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 1.25;
 }
 
