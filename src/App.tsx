@@ -683,7 +683,7 @@ function HomePage({
         <div className="view-tabs-wrap">
           <div className="view-tabs">
             {homeTabs.map((tab, index) => (
-              <button key={tab} type="button" className={index === 1 ? 'view-tab active' : 'view-tab'}>
+              <button key={tab} type="button" className={index === 2 ? 'view-tab active' : 'view-tab'}>
                 {tab}
               </button>
             ))}
